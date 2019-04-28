@@ -1,4 +1,4 @@
-# wallet.py
+# wallet.py test
 
 class InsufficientAmount(Exception):
     pass
