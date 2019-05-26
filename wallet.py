@@ -1,4 +1,6 @@
+<<<<<<< HEAD
 # wallet.py test
+>>>>>>> 8e3cf405cef2ddbdc8ce8baacc83ccf7d2c605f3
 
 class InsufficientAmount(Exception):
     pass
