@@ -5,3 +5,9 @@ install:
         pip install pytest
 script:
         - pytest
+        
+env:
+        - CODECOV_TOKEN="6585d92a-7916-4942-a727-b3d31ca51fca"
+       
+after_success:
+        - codecov
