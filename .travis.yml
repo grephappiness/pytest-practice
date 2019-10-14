@@ -6,5 +6,6 @@ install:
         pip install pytest codecov
 script:
         - coverage run test_wallet.py
+        - coverage run test_capitalize.py
 after_success:
         - codecov
