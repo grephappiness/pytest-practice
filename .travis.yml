@@ -5,6 +5,6 @@ python:
 install:
         pip install pytest pytest-cov
 script:
-        - pytest --cov=./
+        - pytest --cov=pytest-practice tests/
 after_success:
         - codecov
